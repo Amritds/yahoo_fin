@@ -1,0 +1,4 @@
+from yahoo_fin import stock_info as yf_info
+...
+
+df = yf_info.get_day_gainers()
